@@ -1,0 +1,112 @@
+* {
+
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+}
+
+.navbar{
+    background-color: black;
+    color:white;
+    padding: 0.5%;
+    height: 55px;
+    display: flex;
+    width: 100%;
+    text-align: right;
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+}
+
+.navbar .name{ 
+    text-align: left;
+    width: 100%;
+}
+
+
+ .book, .reg, .cont, .logout{ 
+    text-align: right;
+    color: white;
+    margin: 0px 30px;
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: left;
+    padding: 2%;
+}
+
+
+
+.books{
+    color: black;
+    width: 70%;
+    position:relative;
+    margin: 35px;
+    /* height:200px; */
+   
+}
+
+.books .temp{
+    background-color: rgb(218, 222, 219);
+}
+
+
+
+table, th, td {
+    border:2px solid black;
+    width: 70%;
+    border-collapse: collapse;
+  }
+
+
+.t1, th, tr{
+    border:1px solid black;
+    width: 70%;
+    border-collapse: collapse;
+    padding: 2%;
+    margin: 2%;
+}
+
+
+.register .temp2{
+    background-color: rgb(218, 222, 219);
+}
+
+.register{
+    width: 70%;
+    /* background-color: red; */
+   
+   
+}
+
+input{
+    width: 100%;
+    background-color: rgb(218, 222, 219);
+    
+}
+
+
+.temp2, .names, .lname, .dob, .age{
+    text-align: left;
+    margin: 2%;
+    padding: 4%;
+}
+
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+
